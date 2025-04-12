@@ -1,0 +1,23 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(135, 229, 255);
+    color: rgb(72, 7, 15);
+}
+
+li {
+    margin: 2px;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button {
+    /* font-weight: bold; */
+    margin-top: 5px;
+    font-size: large;
+    font-family: monospace;
+}
