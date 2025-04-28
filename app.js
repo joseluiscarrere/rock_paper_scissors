@@ -108,7 +108,7 @@ function playGame() {
 const button = document.querySelector("button")
 
 // event listener to trigger playgame function upon user click on button
-button.addEventListener("click", function (e) {
+button.addEventListener("click", function () {
     playGame();
 })
 
