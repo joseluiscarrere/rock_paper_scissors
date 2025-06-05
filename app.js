@@ -82,8 +82,17 @@ function playRound() {
     }
 }
 
+// function to reset game
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    playerSelection = undefined;
+    computerSelection = undefined;
+}
+
 // function to play best of five game of rock paper scissors
 function playGame() {
+    resetGame();
     // while loop to continue playing rounds of rock paper scissors until either player or computer reaches a score of 3
     while ((playerScore !== 3 && computerScore !== 3) && (playerSelection !== null)) {
         playRound();
